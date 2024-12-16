@@ -1,0 +1,362 @@
+.skills_Section1 {
+  background-color: var(--blue);
+  gap: 4rem;
+  scroll-margin-top: 15rem;
+  color: var(--white);
+  padding: 2rem 4rem;
+  max-width: 90rem;
+  margin: auto;
+}
+
+p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 4.5rem;
+}
+
+.skills_Title{
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.skills_Section2 {
+  gap: 4rem;
+  scroll-margin-top: 15rem;
+  color: var(--white);
+  padding: 2rem 4rem;
+}
+
+.skills_Container{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 1rem 4rem 30rem;
+}
+
+.skill_Html{
+  position: relative;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skill_Html_Img{
+  width: 4rem;
+  height: auto;
+}
+
+.skill_Html:hover{
+  transform: scale(1.1);
+  border-color: #DB4E26;
+}
+
+.description_Html{
+  display: none;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border: 1px solid #DB4E26;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 50rem;
+  height: 18.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  text-align: justify;
+  line-height: 2.4rem;
+}
+
+.skill_Css{
+  
+  position: relative;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skill_Css_Img{
+  width: 4rem;
+  height: auto;
+}
+.skill_Css:hover{
+  transform: scale(1.1);
+  border-color: #2862EA;
+}
+
+.description_Css{
+  display: none;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border: 1px solid #2862EA;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 50rem;
+  height: 16.6rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  text-align: justify;
+  line-height: 2.4rem;
+}
+
+.skill_JavaScript{
+  
+  position: relative;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skill_JavaScript_Img{
+  width: 2.5rem;
+  height: auto;
+}
+
+.skill_JavaScript:hover{
+  transform: scale(1.1);
+  border-color: #ff9500;
+}
+
+.description_JavaScript{
+  display: none;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border: 1px solid #ff9500;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 50rem;
+  height: 18.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  text-align: justify;
+  line-height: 2.4rem;
+}
+
+.skill_Python{
+  position: relative;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skill_Python_Img{
+  width: 5rem;
+  height: auto;
+}
+
+.skill_Python:hover{
+  transform: scale(1.1);
+  border-color: #00ff08;
+}
+
+.description_Python{
+  display: none;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border: 1px solid #00ff08;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 50rem;
+  height: 16.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  text-align: justify;
+  line-height: 2.4rem;
+}
+
+.skill_Bi{
+  
+  position: relative;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skill_Bi_Img{
+  width: 6rem;
+  height: auto;
+}
+
+.skill_Bi:hover{
+  transform: scale(1.1);
+  border-color: #eeff00;
+}
+
+.description_Bi{
+  display: none;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border: 1px solid #eeff00;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 50rem;
+  height: 18.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  text-align: justify;
+  line-height: 2.4rem;
+}
+
+.skill_Html:hover .description_Html,
+.skill_Css:hover .description_Css,
+.skill_JavaScript:hover .description_JavaScript,
+.skill_Python:hover .description_Python,
+.skill_Bi:hover .description_Bi {
+  display: block;
+}
+
+
+@media only screen and (max-width: 768px) and (max-height: 1024px){
+  
+  .skill_JavaScript{
+  
+    position: relative;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .description_Html{
+    top: 17rem;
+    left: 32.5rem;
+    height: 17rem;
+  }
+
+  .description_Css{
+    top: 17rem;
+    left: 19.7rem;
+    height: 17rem;
+  }
+
+  .description_JavaScript{ 
+    top: 17rem;
+    left: 6rem;
+    height: 19rem;
+  }
+
+  .description_Python{
+    top: 17rem;
+    left: -6.5rem;
+    height: 17rem;
+  }
+
+  .description_Bi{
+    top: 17rem;
+    left: -20rem;
+    height: 19.5rem;
+  }
+
+  p, .p {
+    font-size: 2rem;
+  }
+ 
+  .max-width{
+    margin-bottom: 3rem;
+  }
+  
+  .skills_Section1 {
+    scroll-margin-top: 18rem;
+  }
+  /* skills para mobile*/
+  .skills_Container_MB {
+    display: none;
+  }
+
+  .skill_Html_MB,
+  .skill_Css_MB,
+  .skill_JavaScript_MB,
+  .skill_Python_MB,
+  .skill_Bi_MB {
+    display: none;
+  }
+
+  .description_Html_MB,
+  .description_Css_MB,
+  .description_JavaScript_MB,
+  .description_Python_MB,
+  .description_Bi_MB {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 780px) {
+  .skills_Container_MB.active {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .skill_Html,
+  .skill_Css,
+  .skill_JavaScript,
+  .skill_Python,
+  .skill_Bi {
+    width: 30rem;
+  }
+
+  
+
+
+  .description_Css{
+    top: 17rem;
+    left: 19.7rem;
+    height: 17rem;
+  }
+
+  .description_JavaScript{ 
+    top: 17rem;
+    left: 6rem;
+    height: 19rem;
+  }
+
+  .description_Python{
+    top: 17rem;
+    left: -6.5rem;
+    height: 17rem;
+  }
+
+  .description_Bi{
+    top: 17rem;
+    left: -20rem;
+    height: 19.5rem;
+  }
+
+}  
+
